@@ -547,7 +547,7 @@ footer .position-absolute {
 }
 
 .bg-marmore {
-  background-image: url(../images/marmore.jpg);
+  background-image: url(../images/marmore.webp);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -559,13 +559,13 @@ footer .position-absolute {
 .line {
   height: 20px;
   background-color: var(--primary);
-  background-image: url(../images/line-blue.png);
+  background-image: url(../images/line-blue.webp);
   background-size: contain;
 }
 .line-thin {
   height: 10px;
   background-color: var(--accent);
-  background-image: url(../images/line-gold.png);
+  background-image: url(../images/line-gold.webp);
   background-size: cover;
 }
 .line-thin.rotate {
@@ -574,7 +574,7 @@ footer .position-absolute {
 
 .btn-gradient {
   background-color: hsl(44, 84%, 70%);
-  background-image: url(../images/bg-azul-small.jpg);
+  background-image: url(../images/bg-azul-small.webp);
   background-size: 200%;
   background-position: left;
   border: 0px !important;
@@ -606,7 +606,7 @@ footer .position-absolute {
   stroke: var(--primary);
 }
 .btn-outline-gradient:not(:disabled):not(.disabled).active, .btn-outline-gradient:not(:disabled):not(.disabled):active, .show > .btn-outline-gradient.dropdown-toggle, .btn-outline-gradient:hover {
-  background-image: url(../images/bg-azul-small.jpg);
+  background-image: url(../images/bg-azul-small.webp);
   background-position: left;
   color: #FFF;
 }
@@ -677,7 +677,7 @@ footer .position-absolute {
   width: 100%;
   height: 2px;
   background-color: var(--accent);
-  background-image: url(../images/gold.png);
+  background-image: url(../images/gold.webp);
   background-position: bottom;
 }
 @media (max-width: 992px) {
@@ -705,7 +705,7 @@ footer .position-absolute {
   width: var(--size);
   height: 4px;
   background-color: var(--accent);
-  background-image: url(../images/gold.png);
+  background-image: url(../images/gold.webp);
   background-position: top right;
   background-size: cover;
 }
@@ -751,7 +751,7 @@ footer .position-absolute {
 
 #inicio {
   height: 100vh;
-  background-image: url("../images/bg-home.png");
+  background-image: url("../images/bg-home.webp");
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.3);
   background-attachment: fixed;
@@ -806,7 +806,7 @@ footer .position-absolute {
 }
 
 #sobre {
-  background-image: url(../images/marmore.jpg);
+  background-image: url(../images/marmore.webp);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -863,7 +863,7 @@ footer .position-absolute {
   width: var(--size);
   height: 4px;
   background-color: var(--accent);
-  background-image: url(../images/gold.png);
+  background-image: url(../images/gold.webp);
   background-position: top right;
   background-size: cover;
 }
@@ -924,7 +924,7 @@ footer .position-absolute {
 #esperar .caixa {
   padding: 1.5rem;
   border-radius: 1rem;
-  background-image: url(../images/bg-azul.jpeg);
+  background-image: url(../images/bg-azul.webp);
 }
 #esperar .logo-tl {
   opacity: 0.15;
@@ -942,7 +942,7 @@ footer .position-absolute {
 }
 #trabalhando .bg-trab {
   position: absolute;
-  background-image: url(../images/trabalhando.jpg);
+  background-image: url(../images/trabalhando.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -983,7 +983,7 @@ footer .position-absolute {
 }
 
 #escolha {
-  background-image: url(../images/marmore.jpg);
+  background-image: url(../images/marmore.webp);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1007,7 +1007,7 @@ footer .position-absolute {
 }
 
 footer {
-  background-image: url(../images/bg-azul.jpeg);
+  background-image: url(../images/bg-azul.webp);
 }
 footer .icon {
   text-align: center;
@@ -1053,7 +1053,7 @@ footer .link:hover {
 }
 
 #curriculo {
-  background-image: url(../images/marmore.jpg);
+  background-image: url(../images/marmore.webp);
   background-size: cover;
   background-attachment: fixed;
   position: relative;

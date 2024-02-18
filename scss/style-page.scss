@@ -26,7 +26,7 @@ $ft-2: var(--font-secondary);
   }
 
   &-marmore {
-    background-image: url(../images/marmore.jpg);
+    background-image: url(../images/marmore.webp);
     background-size: cover;
     background-attachment: fixed;
   }
@@ -40,13 +40,13 @@ $ft-2: var(--font-secondary);
 .line {
   height: 20px;
   background-color: $primary;
-  background-image: url(../images/line-blue.png);
+  background-image: url(../images/line-blue.webp);
   background-size: contain;
 
   &-thin {
     height: 10px;
     background-color: $accent;
-    background-image: url(../images/line-gold.png);
+    background-image: url(../images/line-gold.webp);
     background-size: cover;
 
     &.rotate {
@@ -58,7 +58,7 @@ $ft-2: var(--font-secondary);
 .btn {
   &-gradient {
     background-color: hsla(44, 84%, 70%, 1);
-    background-image: url(../images/bg-azul-small.jpg);
+    background-image: url(../images/bg-azul-small.webp);
     background-size: 200%;
     background-position: left;
     border: 0px !important;
@@ -107,7 +107,7 @@ $ft-2: var(--font-secondary);
     &:not(:disabled):not(.disabled):active,
     .show > &.dropdown-toggle,
     &:hover {
-      background-image: url(../images/bg-azul-small.jpg);
+      background-image: url(../images/bg-azul-small.webp);
       background-position: left;
       color: $branco;
       svg {
@@ -197,7 +197,7 @@ $ft-2: var(--font-secondary);
         width: 100%;
         height: 2px;
         background-color: $accent;
-        background-image: url(../images/gold.png);
+        background-image: url(../images/gold.webp);
         background-position: bottom;
       }
     }
@@ -228,7 +228,7 @@ $ft-2: var(--font-secondary);
         width: var(--size);
         height: 4px;
         background-color: $accent;
-        background-image: url(../images/gold.png);
+        background-image: url(../images/gold.webp);
         background-position: top right;
         background-size: cover;
 
@@ -278,7 +278,7 @@ $ft-2: var(--font-secondary);
 
 #inicio {
   height: calc(100vh);
-  background-image: url("../images/bg-home.png");
+  background-image: url("../images/bg-home.webp");
   background-size: cover;
   background-color: rgba($color: #fff, $alpha: 0.3);
   background-attachment: fixed;
@@ -312,7 +312,7 @@ $ft-2: var(--font-secondary);
 
   .img-mobile {
     //padding-block: 8rem;
-    // background-image: url('../images/bg-home.png');
+    // background-image: url('../images/bg-home.webp');
     // background-size: cover;
     // background-position: right;
     position: relative;
@@ -353,7 +353,7 @@ $ft-2: var(--font-secondary);
 }
 
 #sobre {
-  background-image: url(../images/marmore.jpg);
+  background-image: url(../images/marmore.webp);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -410,7 +410,7 @@ $ft-2: var(--font-secondary);
       width: var(--size);
       height: 4px;
       background-color: $accent;
-      background-image: url(../images/gold.png);
+      background-image: url(../images/gold.webp);
       background-position: top right;
       background-size: cover;
 
@@ -475,7 +475,7 @@ $ft-2: var(--font-secondary);
   .caixa {
     padding: 1.5rem;
     border-radius: 1rem;
-    background-image: url(../images/bg-azul.jpeg);
+    background-image: url(../images/bg-azul.webp);
   }
 
   .logo-tl {
@@ -494,7 +494,7 @@ $ft-2: var(--font-secondary);
 
   .bg-trab {
     position: absolute;
-    background-image: url(../images/trabalhando.jpg);
+    background-image: url(../images/trabalhando.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -541,7 +541,7 @@ $ft-2: var(--font-secondary);
 }
 
 #escolha {
-  background-image: url(../images/marmore.jpg);
+  background-image: url(../images/marmore.webp);
 
   background-size: cover;
   background-attachment: fixed;
@@ -568,7 +568,7 @@ $ft-2: var(--font-secondary);
 }
 
 footer {
-  background-image: url(../images/bg-azul.jpeg);
+  background-image: url(../images/bg-azul.webp);
   .icon {
     text-align: center;
     svg {
@@ -616,7 +616,7 @@ footer {
 }
 
 #curriculo {
-  background-image: url(../images/marmore.jpg);
+  background-image: url(../images/marmore.webp);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
