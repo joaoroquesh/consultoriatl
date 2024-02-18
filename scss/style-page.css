@@ -561,6 +561,7 @@ footer .position-absolute {
   background-color: var(--primary);
   background-image: url(../images/line-blue.webp);
   background-size: contain;
+  position: relative;
 }
 .line-thin {
   height: 10px;
@@ -570,6 +571,18 @@ footer .position-absolute {
 }
 .line-thin.rotate {
   rotate: 180deg;
+}
+@media (max-width: 576px) {
+  .line.before:before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+  }
 }
 
 .btn-gradient {
@@ -1036,10 +1049,12 @@ footer .link:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 1000px;
+  z-index: 999;
   transition: all 0.3s ease-in-out;
 }
 .wpp img {
+  position: relative;
+  z-index: 999;
   width: 70px;
   height: auto;
 }
