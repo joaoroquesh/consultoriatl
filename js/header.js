@@ -18,7 +18,7 @@ var head = document.head;
 
 // Adicionando o link do Bootstrap CSS
 adicionarLink('libs/css/bootstrap.css', 'stylesheet');
-adicionarLink('libs/css/aos.css', 'stylesheet');
+// adicionarLink('libs/css/aos.css', 'stylesheet');
 
 // Adicionando pré-conexões para o Google Fonts
 adicionarLink('https://fonts.googleapis.com', 'preconnect');
