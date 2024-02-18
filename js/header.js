@@ -59,8 +59,8 @@ function criarMetaTag(name, content, property) {
   // Adicionando as meta tags
   criarMetaTag(null, 'Toledo & Lima', 'og:site_name');
   criarMetaTag(null, 'Toledo & Lima', 'og:title');
-  criarMetaTag(null, 'http://www.consultoriatl.com.br', 'og:url');
-  criarMetaTag(null, 'http://www.consultoriatl.com.br/images/ogimage.jpg', 'og:image');
+  criarMetaTag(null, 'https://www.consultoriatl.com.br', 'og:url');
+  criarMetaTag(null, 'https://www.consultoriatl.com.br/images/ogimage.jpg', 'og:image');
   criarMetaTag(null, 'image/jpeg', 'og:image:type');
   criarMetaTag(null, '400', 'og:image:width');
   criarMetaTag(null, '320', 'og:image:height');
