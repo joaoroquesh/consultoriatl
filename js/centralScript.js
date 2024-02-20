@@ -6,7 +6,6 @@ AOS.init({
 });
 
 $(document).ready(function () {
-  $("#nav").load("src/nav.html");
   $("#contato").load("src/contato.html");
   $("#footer").load("src/footer.html");
 });
